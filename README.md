@@ -1,5 +1,5 @@
 # DUINOSHOOT
-[![Made in C++](https://img.shields.io/badge/Made%20in-C%2B%2B-blue.svg)](https://www.cplusplus.com/)
+![](https://img.shields.io/badge/Made_in-C++-red)
 ![](https://img.shields.io/badge/Arduino-project-yellow)
 
 A spaceinvader like game made in C++ for an Atmega328p microcontroller, working with push buttons and oled 128x64 screen.
