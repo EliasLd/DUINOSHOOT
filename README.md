@@ -29,6 +29,7 @@ I will fisrt put an image of the electronic assembly prototype on my breadboard 
 ![first prototype](images/prototype.bmp)
 
 Take a look at the start menu screen and in-game screen :
+
 ![start menu](images/start_menu_prototype.bmp)
 ![in-game screen](images/game_prototype.bmp)
 
