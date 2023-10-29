@@ -16,3 +16,5 @@ I chose to use an Arduino Nano because it was the first board I studied and the 
 I did the sprites all by myself using paint. There's only two sprites, one for the player's spaceship and one fort the ennemie's. They are both sized 22x20 pixels
 Here's the player's spaceship sprite : 
 ![sapceship sprite made with paint](images/spaceship.bmp)
+And this is the ennemies's spaceship sprite : 
+![ennemy spaceship sprite made with paint](images/sprite_ennemy.bmp)
