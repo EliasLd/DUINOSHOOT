@@ -24,7 +24,7 @@ And this is the ennemies's spaceship sprite :
 ![ennemy spaceship sprite made with paint](images/sprite_ennemy.bmp)
 
 ### USAGE
-If you want to teste the DUINOSHOOT, you just have to take de .ino source code and download the libraries. I use Arduino IDE but you can also use Visual Studio Code with the platformIO extension. 
+If you want to test the DUINOSHOOT, you just have to take de .ino source code and download the libraries. I use Arduino IDE but you can also use Visual Studio Code with the platformIO extension. 
 
 ### ELECTRONIC ASSEMBLY
 I will fisrt put an image of the electronic assembly prototype on my breadboard : 
