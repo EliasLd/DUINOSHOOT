@@ -2,36 +2,36 @@
 ![](https://img.shields.io/badge/Made_in-C++-red)
 ![](https://img.shields.io/badge/Arduino-project-yellow)
 
-A spaceinvader like game made in C++ for an Atmega328p microcontroller, working with push buttons and oled 128x64 screen.
+Un jeu de type spaceinvader réalisé en C++ pour un microcontrôleur Atmega328p, fonctionnant avec des boutons poussoirs et un écran oled 128x64.
 
 ### DESCRIPTION
-The purpose of this project was to create a small space invader-type game using an **Arduino Nano**. I did this to test my skills in algorithmic logic and actor management in a game (collision, shooting, etc.). The electronic part is based on a pretty basic setup. I use an Arduino Nano board with an Atmega328p microcontroller, connected to a 128x64 pixel OLED screen and three push buttons, one of them is connected to one of the Arduino's external interrupt pins. The operation is simple. The "v" button allows the spaceship to move down, the "^" button allows it to move up, and the red button allows firing a laser. The player can only shoot three lasers at a time. The goal is to eliminate as many enemies as possible. When the player's score exceeds 30, the enemies speed up to add difficulty. If the player is hit by an enemy, they lose. At startup, a small menu is displayed and asks the player to click one of the buttons, this menu reappears when the player loses.
-I chosed to use an Arduino Nano because it was the first board I studied and the one I had the most knowledge about. The difficulties I encountered were mainly related to the game's operation, as on such a small screen, it can sometimes be challenging to manage multiple things simultaneously. Collisions, in particular, required multiple revisions. Furthermore, it was a very enjoyable project to create and develop. I will detail the **game's features**, how it works, and the **libraries used**.
+Le but de ce projet était de créer un petit jeu de type Space Invader utilisant une **Arduino Nano**. J'ai fait cela pour tester mes compétences en logique algorithmique et en gestion d'acteurs dans un jeu (collision, tir, etc.). La partie électronique repose sur une configuration assez basique. J'utilise une carte Arduino Nano avec un microcontrôleur Atmega328p, connecté à un écran OLED de 128x64 pixels et trois boutons poussoirs, l'un d'eux est connecté à l'une des broches d'interruption externes de l'Arduino. L'opération est simple. Le bouton "v" permet au vaisseau spatial de descendre, le bouton "^" lui permet de monter et le bouton rouge permet de tirer un laser. Le joueur ne peut tirer que trois lasers à la fois. Le but est d'éliminer un maximum d'ennemis. Lorsque le score du joueur dépasse 30, les ennemis accélèrent pour ajouter de la difficulté. Si le joueur est touché par un ennemi, il perd. Au démarrage, un petit menu s'affiche et demande au joueur de cliquer sur un des boutons, ce menu réapparaît lorsque le joueur perd.
+J'ai choisi d'utiliser une Arduino Nano car c'était la première carte que j'ai étudié et celle sur laquelle j'avais le plus de connaissances. Les difficultés que j'ai rencontré étaient principalement liées au fonctionnement du jeu, car sur un si petit écran, il peut parfois être difficile de gérer plusieurs choses simultanément. Les collisions, en particulier, ont nécessité de multiples révisions. De plus, c’était un projet très agréable à créer et à développer. Je détaillerai les **fonctionnalités du jeu**, son fonctionnement et les **bibliothèques utilisées**.
 
 ### CREDITS
 [Adafruit_SSD1306 Library](https://github.com/adafruit/Adafruit_SSD1306)
 
 [Adafruit-GFX-Library](https://github.com/adafruit/Adafruit-GFX-Library)
 
-[Image2cpp](https://javl.github.io/image2cpp/) A tool that allows you to change images into byte arrays (or arrays back into an images) for use with (monochrome) displays such as OLEDs on your Arduino or Raspberry Pi.
+[Image2cpp](https://javl.github.io/image2cpp/) Un outil qui permet de transformer des images en tableaux d'octets (ou des tableaux en images) à utiliser avec des écrans (monochrome) tels que les OLED sur votre Arduino ou Raspberry Pi.
 
 ### SPRITES
-I did the sprites all by myself using paint. There's only two sprites, one for the player's spaceship and one fort the ennemie's. They are both sized 22x20 pixels
-Here's the player's spaceship sprite : 
+J'ai réalisé les sprites moi-même avec paint. Il n'y a que deux sprites, un pour le vaisseau spatial du joueur et un pour celui de l'ennemi. Ils mesurent tous deux 22 x 20 pixels.
+Voici le sprite du vaisseau spatial du joueur :
 ![sapceship sprite made with paint](images/spaceship.bmp)
 
-And this is the ennemies's spaceship sprite : 
+Et voici le sprite du vaisseau spatial ennemi :
 ![ennemy spaceship sprite made with paint](images/sprite_ennemy.bmp)
 
 ### USAGE
-If you want to test the DUINOSHOOT, you just have to take de .ino source code and download the libraries. I use Arduino IDE but you can also use Visual Studio Code with the platformIO extension. 
+Si vous souhaitez tester le DUINOSHOOT, il vous suffit de prendre le code source du .ino et de télécharger les librairies. J'utilise Arduino IDE mais vous pouvez également utiliser Visual Studio Code avec l'extension platformIO.
 
 ### ELECTRONIC ASSEMBLY
-I will fisrt put an image of the electronic assembly prototype on my breadboard : 
+Voici le montage électronique protoype sur ma breadboard : 
 
 ![first prototype](images/prototype.bmp)
 
-Take a look at the start menu screen and in-game screen :
+Aperçu des écrans menu/jeu :
 
 ![start menu](images/start_menu_prototype.bmp)
 ![in-game screen](images/game_prototype.bmp)
