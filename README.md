@@ -42,6 +42,7 @@ Aperçu des écrans menu/jeu :
 
 ### VERSION FINALE
 J'ai optimisé le montage électronique pour le monter sur deux cartes soudables afin de concrétiser ce petit projet, voici le résultat obtenu après avoir transposé le montage en le soudant sur les cartes : 
+
 ![montage final haut](images/FINAL.bmp)
 ![montage final côté](images/FINAL_SIDE.bmp)
 
