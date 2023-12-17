@@ -9,8 +9,8 @@ Le but de ce projet était de créer un petit jeu de type Space Invader utilisan
 J'ai choisi d'utiliser une Arduino Nano car c'était la première carte que j'ai étudié et celle sur laquelle j'avais le plus de connaissances. Les difficultés que j'ai rencontré étaient principalement liées au fonctionnement du jeu, car sur un si petit écran, il peut parfois être difficile de gérer plusieurs choses simultanément. Les collisions, en particulier, ont nécessité de multiples révisions. De plus, c’était un projet très agréable à créer et à développer. Je détaillerai les **fonctionnalités du jeu**, son fonctionnement et les **bibliothèques utilisées**.
 
 # FONCTIONNEMENT
-DUINOSHOOT est programmé en utilisant les principes de programmation orientée objet en C++. Le vaisseau du joueur est une entité (instance de classe) , tout comme les vaisseau ennemis et les lasers tirés. Leur positions, vitesses et évolution dans l'espace sont 
-assurés par l'intermédiaire de fonction prenant pour la plupart l'adresse mémoire de ces instances (utilisation de pointeurs). Le jeu prend aussi en compte les boutons sur lesquels il faut appuyer pour jouer. A l'aide d'une petite fonction, on récupère l'état du bouton ainsi que son état précédent pour ne considérer qu'un seul appui et pas le maintien
+DUINOSHOOT est programmé en utilisant les principes de programmation orientée objet en C++. Le vaisseau du joueur est une entité (instance de classe) , tout comme les vaisseaux ennemis et les lasers tirés. Leur positions, vitesses et évolution dans l'espace sont 
+assurés par l'intermédiaire de fonctions prenant pour la plupart l'adresse mémoire de ces instances (utilisation de pointeurs). Le jeu prend aussi en compte les boutons sur lesquels il faut appuyer pour jouer. A l'aide d'une petite fonction, on récupère l'état du bouton ainsi que son état précédent pour ne considérer qu'un seul appui et pas le maintien
 
 # CREDITS
 [Adafruit_SSD1306 Library](https://github.com/adafruit/Adafruit_SSD1306)
